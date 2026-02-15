@@ -1,6 +1,8 @@
-# Global Death Counter 2026
+# Global Death Counter 2026 + AI Mortality Projection 2030
 
-Static frontend-only website that displays model-based increasing death counters for the world and individual countries using annual estimates.
+Static frontend-only data visualization site using pure HTML, CSS, and vanilla JavaScript.
+
+No backend, no frameworks, no build tools, no external runtime libraries.
 
 ## Files
 
@@ -8,51 +10,83 @@ Static frontend-only website that displays model-based increasing death counters
 - `style.css`
 - `main.js`
 - `deaths_annual_2026.json`
+- `population_2026.json`
+- `world.geojson`
+- `README.md`
 
-## How the counter is calculated
+## 1) 2026 Real-Time Death Counter Model
 
-The counter is not a live feed. It is a deterministic model:
+The displayed values are **model-based counters** (not live incident reporting).
 
-1. Use annual death estimate for each entity (`annual_deaths_estimate`).
-2. Compute exact seconds in year 2026 with UTC timestamps:
-   - `seconds_in_year = (UTC(2027-01-01) - UTC(2026-01-01)) / 1000`
-3. Compute per-second model rate:
-   - `rate = annual_deaths / seconds_in_year`
-4. Use base timestamp:
-   - `2026-01-01T00:00:00Z`
-5. For each animation frame:
-   - `elapsed_seconds = (now - base_timestamp) / 1000`
-   - clamped to `[0, seconds_in_year]`
-6. Display cumulative modeled deaths:
-   - `display_count = floor(rate * elapsed_seconds)`
+- Base timestamp: `2026-01-01T00:00:00Z` (UTC)
+- Seconds in year:
+  - `seconds_in_year = (UTC(2027-01-01) - UTC(2026-01-01)) / 1000`
+- Per-second rate:
+  - `rate = annual_deaths / seconds_in_year`
+- Elapsed seconds:
+  - `elapsed_seconds = (now_utc - base_utc) / 1000`
+  - clamped to `[0, seconds_in_year]`
+- Displayed cumulative deaths:
+  - `floor(rate * elapsed_seconds)`
 
-## Data methodology
+Animation uses `requestAnimationFrame`.
 
-- `deaths_annual_2026.json` includes:
-  - `WORLD` total
-  - 250 ISO-3166 alpha-3 country/territory codes
-- Since finalized official 2026 death counts do not exist in real-time, estimates are computed from latest available baseline mortality/population data:
-  - Latest available crude death rate (`SP.DYN.CDRT.IN`, deaths per 1,000)
-  - Latest available total population (`SP.POP.TOTL`)
-  - Annual estimate formula: `population * (crude_death_rate / 1000)`
-  - Regional fallback death rates are used when a country-level death rate is unavailable.
+## 2) Heatmap Metric
 
-## Disclaimer
+Country fill color is based on normalized mortality burden:
 
-This is a model-based estimate derived from annual mortality data, not live reported deaths.
+- `deaths_per_100k = (annual_deaths / population) * 100000`
 
-## Run locally
+Tooltip shows:
 
-No build step is required.
+- Country name
+- 2026 annual estimated deaths
+- Deaths per 100k
+- Current accumulated 2026 deaths from the same real-time model
 
-Use any static file server, for example:
+## 3) AI Mortality Projection 2030 (Hypothetical Simulation)
+
+### Baseline projection
+
+- `baseline_2030 = annual_2026 * (1 + annual_growth_rate)^4`
+- Default `annual_growth_rate = 0.005` (0.5%), configurable in `main.js`
+
+### AI efficiency adjustment
+
+- Slider range: `0%` to `50%`
+- `new_deaths_2030 = baseline_2030 * (1 - efficiency_rate)`
+
+Displayed for world and selected country:
+
+- Baseline 2030 deaths
+- Projected 2030 deaths
+- Reduction vs baseline (absolute and %)
+
+Slider changes animate with interpolated transitions.
+
+## Data Assumptions
+
+- `deaths_annual_2026.json`: local annual death estimates keyed by `ISO-3166 alpha-3` and `WORLD`.
+- `population_2026.json`: local population baseline keyed by `ISO-3166 alpha-3` and `WORLD`.
+- `world.geojson`: simplified country polygons for static SVG rendering.
+- If real finalized 2026 mortality values are unavailable, values are treated as annual estimates for model simulation.
+
+## Ethical Disclaimer
+
+- This visualization is for informational and educational modeling only.
+- It is **not** a real-time mortality reporting system.
+- The AI 2030 panel is a **hypothetical scenario model**, not a predictive medical forecast or policy recommendation.
+
+## Run Locally
+
+Because this project loads local JSON/GeoJSON via `fetch`, run it from a static file server:
 
 ```bash
 python3 -m http.server 8080
 ```
 
-Then open:
+Open:
 
 `http://localhost:8080`
 
-This site is deployable as-is to GitHub Pages or Vercel static hosting.
+Deploy as static files to GitHub Pages or Vercel.

@@ -3,75 +3,112 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Global Death Counter 2026</title>
+    <title>Global Death Counter 2026 + AI Mortality Projection 2030</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <main class="app">
-      <header class="header">
-        <h1>Global Death Counter 2026</h1>
-        <p class="subtitle">Model-based mortality estimate counters from annual data baselines.</p>
+    <div class="app">
+      <header class="panel header">
+        <h1>Global Death Counter 2026 + AI Mortality Projection 2030</h1>
+        <p class="sub">Static, model-based mortality visualization with no backend.</p>
       </header>
 
-      <section class="panel world-panel">
-        <div class="panel-head">
-          <h2>WORLD</h2>
-          <span id="world-rate" class="muted"></span>
+      <section class="panel counter-panel">
+        <div class="counter-head">
+          <h2>2026 Real-Time Counter</h2>
+          <span id="clock-info" class="muted"></span>
         </div>
-        <p id="world-counter" class="counter">0</p>
-        <div class="stats-grid">
-          <div>
-            <span class="label">Per Year</span>
-            <span id="world-year" class="value">0</span>
-          </div>
-          <div>
-            <span class="label">Per Day</span>
-            <span id="world-day" class="value">0</span>
-          </div>
-          <div>
-            <span class="label">Per Minute</span>
-            <span id="world-minute" class="value">0</span>
-          </div>
-        </div>
-      </section>
 
-      <section class="panel country-panel">
         <div class="controls">
-          <label for="country-search">Search Country</label>
-          <input id="country-search" type="text" placeholder="Type name or ISO code" autocomplete="off" />
-
-          <label for="country-select">Country</label>
-          <select id="country-select" size="10" aria-label="Country list"></select>
+          <div>
+            <label for="country-search">Search Country</label>
+            <input id="country-search" type="text" placeholder="Type country name or ISO code" autocomplete="off" />
+          </div>
+          <div>
+            <label for="country-select">Selected Country</label>
+            <select id="country-select" aria-label="Country selector"></select>
+          </div>
         </div>
 
-        <div class="country-display">
-          <div class="panel-head">
-            <h2 id="country-title">Country</h2>
-            <span id="country-rate" class="muted"></span>
+        <div class="counter-grid">
+          <article class="metric-card">
+            <h3>WORLD</h3>
+            <p id="world-counter" class="big-number">0</p>
+            <div class="stats-row">
+              <span>Per Year</span><strong id="world-per-year">0</strong>
+            </div>
+            <div class="stats-row">
+              <span>Per Day</span><strong id="world-per-day">0</strong>
+            </div>
+            <div class="stats-row">
+              <span>Per Minute</span><strong id="world-per-minute">0</strong>
+            </div>
+          </article>
+
+          <article class="metric-card">
+            <h3 id="country-title">Country</h3>
+            <p id="country-counter" class="big-number">0</p>
+            <div class="stats-row">
+              <span>Per Year</span><strong id="country-per-year">0</strong>
+            </div>
+            <div class="stats-row">
+              <span>Per Day</span><strong id="country-per-day">0</strong>
+            </div>
+            <div class="stats-row">
+              <span>Per Minute</span><strong id="country-per-minute">0</strong>
+            </div>
+          </article>
+        </div>
+
+        <p class="note">Model-based estimate derived from annual mortality data.</p>
+      </section>
+
+      <section class="panel map-panel">
+        <div class="map-head">
+          <h2>Interactive World Heatmap (2026 deaths per 100,000)</h2>
+          <div class="legend-wrap">
+            <span id="legend-min" class="legend-label">Low</span>
+            <div id="legend-gradient" class="legend-gradient" aria-hidden="true"></div>
+            <span id="legend-max" class="legend-label">High</span>
           </div>
-          <p id="country-counter" class="counter">0</p>
-          <div class="stats-grid">
-            <div>
-              <span class="label">Per Year</span>
-              <span id="country-year" class="value">0</span>
-            </div>
-            <div>
-              <span class="label">Per Day</span>
-              <span id="country-day" class="value">0</span>
-            </div>
-            <div>
-              <span class="label">Per Minute</span>
-              <span id="country-minute" class="value">0</span>
-            </div>
-          </div>
+        </div>
+
+        <div class="map-shell">
+          <svg id="world-map" viewBox="0 0 1000 520" role="img" aria-label="World death heatmap"></svg>
+          <div id="map-tooltip" class="tooltip" hidden></div>
         </div>
       </section>
 
-      <footer class="footer">
-        <p id="data-note" class="muted"></p>
-        <p class="disclaimer">This is a model-based estimate derived from annual mortality data, not live reported deaths.</p>
-      </footer>
-    </main>
+      <section class="panel projection-panel">
+        <div class="projection-head">
+          <h2>AI Era Mortality Projection 2030 (Hypothetical)</h2>
+          <p class="muted">Annual growth assumption: <span id="growth-rate-label"></span></p>
+        </div>
+
+        <div class="slider-block">
+          <label for="efficiency-slider">AI-driven healthcare efficiency improvement: <strong id="efficiency-label">0%</strong></label>
+          <input id="efficiency-slider" type="range" min="0" max="50" step="0.1" value="0" />
+        </div>
+
+        <div class="projection-grid">
+          <article class="metric-card">
+            <h3>WORLD 2030</h3>
+            <div class="stats-row"><span>Baseline</span><strong id="world-base-2030">0</strong></div>
+            <div class="stats-row"><span>Projected</span><strong id="world-proj-2030">0</strong></div>
+            <div class="stats-row"><span>Reduction</span><strong id="world-diff-2030">0</strong></div>
+          </article>
+
+          <article class="metric-card">
+            <h3 id="country-proj-title">Country 2030</h3>
+            <div class="stats-row"><span>Baseline</span><strong id="country-base-2030">0</strong></div>
+            <div class="stats-row"><span>Projected</span><strong id="country-proj-2030">0</strong></div>
+            <div class="stats-row"><span>Reduction</span><strong id="country-diff-2030">0</strong></div>
+          </article>
+        </div>
+
+        <p class="note">This is a hypothetical model, not a predictive medical forecast.</p>
+      </section>
+    </div>
 
     <script src="main.js" defer></script>
   </body>
