@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Global Death Counter 2026</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="app">
+      <header class="header">
+        <h1>Global Death Counter 2026</h1>
+        <p class="subtitle">Model-based mortality estimate counters from annual data baselines.</p>
+      </header>
+
+      <section class="panel world-panel">
+        <div class="panel-head">
+          <h2>WORLD</h2>
+          <span id="world-rate" class="muted"></span>
+        </div>
+        <p id="world-counter" class="counter">0</p>
+        <div class="stats-grid">
+          <div>
+            <span class="label">Per Year</span>
+            <span id="world-year" class="value">0</span>
+          </div>
+          <div>
+            <span class="label">Per Day</span>
+            <span id="world-day" class="value">0</span>
+          </div>
+          <div>
+            <span class="label">Per Minute</span>
+            <span id="world-minute" class="value">0</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel country-panel">
+        <div class="controls">
+          <label for="country-search">Search Country</label>
+          <input id="country-search" type="text" placeholder="Type name or ISO code" autocomplete="off" />
+
+          <label for="country-select">Country</label>
+          <select id="country-select" size="10" aria-label="Country list"></select>
+        </div>
+
+        <div class="country-display">
+          <div class="panel-head">
+            <h2 id="country-title">Country</h2>
+            <span id="country-rate" class="muted"></span>
+          </div>
+          <p id="country-counter" class="counter">0</p>
+          <div class="stats-grid">
+            <div>
+              <span class="label">Per Year</span>
+              <span id="country-year" class="value">0</span>
+            </div>
+            <div>
+              <span class="label">Per Day</span>
+              <span id="country-day" class="value">0</span>
+            </div>
+            <div>
+              <span class="label">Per Minute</span>
+              <span id="country-minute" class="value">0</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <p id="data-note" class="muted"></p>
+        <p class="disclaimer">This is a model-based estimate derived from annual mortality data, not live reported deaths.</p>
+      </footer>
+    </main>
+
+    <script src="main.js" defer></script>
+  </body>
+</html>

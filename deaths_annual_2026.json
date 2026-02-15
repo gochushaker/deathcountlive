@@ -1,0 +1,1264 @@
+{
+  "dataset": "Global Death Counter 2026",
+  "year": 2026,
+  "base_timestamp_utc": "2026-01-01T00:00:00Z",
+  "estimate_method": "Annual deaths are estimated as latest available population multiplied by latest available crude death rate (per 1,000 people), with regional fallback rates when country rates are unavailable.",
+  "disclaimer": "This is a model-based estimate derived from annual mortality data, not live reported deaths.",
+  "world": {
+    "code": "WORLD",
+    "name": "World",
+    "annual_deaths_estimate": 61444887
+  },
+  "countries": [
+    {
+      "code": "AFG",
+      "name": "Afghanistan",
+      "annual_deaths_estimate": 247228
+    },
+    {
+      "code": "ALB",
+      "name": "Albania",
+      "annual_deaths_estimate": 19806
+    },
+    {
+      "code": "DZA",
+      "name": "Algeria",
+      "annual_deaths_estimate": 217265
+    },
+    {
+      "code": "ASM",
+      "name": "American Samoa",
+      "annual_deaths_estimate": 328
+    },
+    {
+      "code": "AND",
+      "name": "Andorra",
+      "annual_deaths_estimate": 498
+    },
+    {
+      "code": "AGO",
+      "name": "Angola",
+      "annual_deaths_estimate": 262360
+    },
+    {
+      "code": "AIA",
+      "name": "Anguilla",
+      "annual_deaths_estimate": 400
+    },
+    {
+      "code": "ATA",
+      "name": "Antarctica",
+      "annual_deaths_estimate": 380
+    },
+    {
+      "code": "ATG",
+      "name": "Antigua and Barbuda",
+      "annual_deaths_estimate": 646
+    },
+    {
+      "code": "ARG",
+      "name": "Argentina",
+      "annual_deaths_estimate": 350398
+    },
+    {
+      "code": "ARM",
+      "name": "Armenia",
+      "annual_deaths_estimate": 24875
+    },
+    {
+      "code": "ABW",
+      "name": "Aruba",
+      "annual_deaths_estimate": 819
+    },
+    {
+      "code": "AUS",
+      "name": "Australia",
+      "annual_deaths_estimate": 187658
+    },
+    {
+      "code": "AUT",
+      "name": "Austria",
+      "annual_deaths_estimate": 89944
+    },
+    {
+      "code": "AZE",
+      "name": "Azerbaijan",
+      "annual_deaths_estimate": 60197
+    },
+    {
+      "code": "BHS",
+      "name": "Bahamas",
+      "annual_deaths_estimate": 3496
+    },
+    {
+      "code": "BHR",
+      "name": "Bahrain",
+      "annual_deaths_estimate": 3319
+    },
+    {
+      "code": "BGD",
+      "name": "Bangladesh",
+      "annual_deaths_estimate": 869547
+    },
+    {
+      "code": "BRB",
+      "name": "Barbados",
+      "annual_deaths_estimate": 2998
+    },
+    {
+      "code": "BLR",
+      "name": "Belarus",
+      "annual_deaths_estimate": 121811
+    },
+    {
+      "code": "BEL",
+      "name": "Belgium",
+      "annual_deaths_estimate": 111471
+    },
+    {
+      "code": "BLZ",
+      "name": "Belize",
+      "annual_deaths_estimate": 2054
+    },
+    {
+      "code": "BEN",
+      "name": "Benin",
+      "annual_deaths_estimate": 127229
+    },
+    {
+      "code": "BMU",
+      "name": "Bermuda",
+      "annual_deaths_estimate": 573
+    },
+    {
+      "code": "BTN",
+      "name": "Bhutan",
+      "annual_deaths_estimate": 4836
+    },
+    {
+      "code": "BOL",
+      "name": "Bolivia",
+      "annual_deaths_estimate": 89028
+    },
+    {
+      "code": "BIH",
+      "name": "Bosnia and Herzegovina",
+      "annual_deaths_estimate": 42581
+    },
+    {
+      "code": "BWA",
+      "name": "Botswana",
+      "annual_deaths_estimate": 14431
+    },
+    {
+      "code": "BVT",
+      "name": "Bouvet Island",
+      "annual_deaths_estimate": 380
+    },
+    {
+      "code": "BRA",
+      "name": "Brazil",
+      "annual_deaths_estimate": 1500314
+    },
+    {
+      "code": "IOT",
+      "name": "British Indian Ocean Territory",
+      "annual_deaths_estimate": 375
+    },
+    {
+      "code": "VGB",
+      "name": "British Virgin Islands",
+      "annual_deaths_estimate": 236
+    },
+    {
+      "code": "BRN",
+      "name": "Brunei",
+      "annual_deaths_estimate": 2420
+    },
+    {
+      "code": "BGR",
+      "name": "Bulgaria",
+      "annual_deaths_estimate": 101130
+    },
+    {
+      "code": "BFA",
+      "name": "Burkina Faso",
+      "annual_deaths_estimate": 187542
+    },
+    {
+      "code": "BDI",
+      "name": "Burundi",
+      "annual_deaths_estimate": 94373
+    },
+    {
+      "code": "KHM",
+      "name": "Cambodia",
+      "annual_deaths_estimate": 112712
+    },
+    {
+      "code": "CMR",
+      "name": "Cameroon",
+      "annual_deaths_estimate": 208264
+    },
+    {
+      "code": "CAN",
+      "name": "Canada",
+      "annual_deaths_estimate": 334438
+    },
+    {
+      "code": "CPV",
+      "name": "Cape Verde",
+      "annual_deaths_estimate": 2655
+    },
+    {
+      "code": "BES",
+      "name": "Caribbean Netherlands",
+      "annual_deaths_estimate": 400
+    },
+    {
+      "code": "CYM",
+      "name": "Cayman Islands",
+      "annual_deaths_estimate": 357
+    },
+    {
+      "code": "CAF",
+      "name": "Central African Republic",
+      "annual_deaths_estimate": 50210
+    },
+    {
+      "code": "TCD",
+      "name": "Chad",
+      "annual_deaths_estimate": 223940
+    },
+    {
+      "code": "CHL",
+      "name": "Chile",
+      "annual_deaths_estimate": 128372
+    },
+    {
+      "code": "CHN",
+      "name": "China",
+      "annual_deaths_estimate": 11088633
+    },
+    {
+      "code": "CXR",
+      "name": "Christmas Island",
+      "annual_deaths_estimate": 365
+    },
+    {
+      "code": "CCK",
+      "name": "Cocos (Keeling) Islands",
+      "annual_deaths_estimate": 365
+    },
+    {
+      "code": "COL",
+      "name": "Colombia",
+      "annual_deaths_estimate": 285481
+    },
+    {
+      "code": "COM",
+      "name": "Comoros",
+      "annual_deaths_estimate": 6236
+    },
+    {
+      "code": "COG",
+      "name": "Congo",
+      "annual_deaths_estimate": 39822
+    },
+    {
+      "code": "COK",
+      "name": "Cook Islands",
+      "annual_deaths_estimate": 365
+    },
+    {
+      "code": "CRI",
+      "name": "Costa Rica",
+      "annual_deaths_estimate": 27994
+    },
+    {
+      "code": "HRV",
+      "name": "Croatia",
+      "annual_deaths_estimate": 51420
+    },
+    {
+      "code": "CUB",
+      "name": "Cuba",
+      "annual_deaths_estimate": 111412
+    },
+    {
+      "code": "CUW",
+      "name": "Cura\u00e7ao",
+      "annual_deaths_estimate": 1513
+    },
+    {
+      "code": "CYP",
+      "name": "Cyprus",
+      "annual_deaths_estimate": 9594
+    },
+    {
+      "code": "CZE",
+      "name": "Czechia",
+      "annual_deaths_estimate": 113412
+    },
+    {
+      "code": "COD",
+      "name": "DR Congo",
+      "annual_deaths_estimate": 931580
+    },
+    {
+      "code": "DNK",
+      "name": "Denmark",
+      "annual_deaths_estimate": 58575
+    },
+    {
+      "code": "DJI",
+      "name": "Djibouti",
+      "annual_deaths_estimate": 8714
+    },
+    {
+      "code": "DMA",
+      "name": "Dominica",
+      "annual_deaths_estimate": 845
+    },
+    {
+      "code": "DOM",
+      "name": "Dominican Republic",
+      "annual_deaths_estimate": 71422
+    },
+    {
+      "code": "ECU",
+      "name": "Ecuador",
+      "annual_deaths_estimate": 92999
+    },
+    {
+      "code": "EGY",
+      "name": "Egypt",
+      "annual_deaths_estimate": 636415
+    },
+    {
+      "code": "SLV",
+      "name": "El Salvador",
+      "annual_deaths_estimate": 47657
+    },
+    {
+      "code": "GNQ",
+      "name": "Equatorial Guinea",
+      "annual_deaths_estimate": 14909
+    },
+    {
+      "code": "ERI",
+      "name": "Eritrea",
+      "annual_deaths_estimate": 21380
+    },
+    {
+      "code": "EST",
+      "name": "Estonia",
+      "annual_deaths_estimate": 16056
+    },
+    {
+      "code": "SWZ",
+      "name": "Eswatini",
+      "annual_deaths_estimate": 9570
+    },
+    {
+      "code": "ETH",
+      "name": "Ethiopia",
+      "annual_deaths_estimate": 787076
+    },
+    {
+      "code": "FLK",
+      "name": "Falkland Islands",
+      "annual_deaths_estimate": 400
+    },
+    {
+      "code": "FRO",
+      "name": "Faroe Islands",
+      "annual_deaths_estimate": 416
+    },
+    {
+      "code": "FJI",
+      "name": "Fiji",
+      "annual_deaths_estimate": 8596
+    },
+    {
+      "code": "FIN",
+      "name": "Finland",
+      "annual_deaths_estimate": 61819
+    },
+    {
+      "code": "FRA",
+      "name": "France",
+      "annual_deaths_estimate": 630675
+    },
+    {
+      "code": "GUF",
+      "name": "French Guiana",
+      "annual_deaths_estimate": 400
+    },
+    {
+      "code": "PYF",
+      "name": "French Polynesia",
+      "annual_deaths_estimate": 1028
+    },
+    {
+      "code": "ATF",
+      "name": "French Southern and Antarctic Lands",
+      "annual_deaths_estimate": 380
+    },
+    {
+      "code": "GAB",
+      "name": "Gabon",
+      "annual_deaths_estimate": 15917
+    },
+    {
+      "code": "GMB",
+      "name": "Gambia",
+      "annual_deaths_estimate": 17366
+    },
+    {
+      "code": "GEO",
+      "name": "Georgia",
+      "annual_deaths_estimate": 43799
+    },
+    {
+      "code": "DEU",
+      "name": "Germany",
+      "annual_deaths_estimate": 1027254
+    },
+    {
+      "code": "GHA",
+      "name": "Ghana",
+      "annual_deaths_estimate": 242369
+    },
+    {
+      "code": "GIB",
+      "name": "Gibraltar",
+      "annual_deaths_estimate": 256
+    },
+    {
+      "code": "GRC",
+      "name": "Greece",
+      "annual_deaths_estimate": 126943
+    },
+    {
+      "code": "GRL",
+      "name": "Greenland",
+      "annual_deaths_estimate": 534
+    },
+    {
+      "code": "GRD",
+      "name": "Grenada",
+      "annual_deaths_estimate": 1038
+    },
+    {
+      "code": "GLP",
+      "name": "Guadeloupe",
+      "annual_deaths_estimate": 400
+    },
+    {
+      "code": "GUM",
+      "name": "Guam",
+      "annual_deaths_estimate": 1152
+    },
+    {
+      "code": "GTM",
+      "name": "Guatemala",
+      "annual_deaths_estimate": 88884
+    },
+    {
+      "code": "GGY",
+      "name": "Guernsey",
+      "annual_deaths_estimate": 560
+    },
+    {
+      "code": "GIN",
+      "name": "Guinea",
+      "annual_deaths_estimate": 134637
+    },
+    {
+      "code": "GNB",
+      "name": "Guinea-Bissau",
+      "annual_deaths_estimate": 15520
+    },
+    {
+      "code": "GUY",
+      "name": "Guyana",
+      "annual_deaths_estimate": 6084
+    },
+    {
+      "code": "HTI",
+      "name": "Haiti",
+      "annual_deaths_estimate": 92026
+    },
+    {
+      "code": "HMD",
+      "name": "Heard Island and McDonald Islands",
+      "annual_deaths_estimate": 380
+    },
+    {
+      "code": "HND",
+      "name": "Honduras",
+      "annual_deaths_estimate": 48477
+    },
+    {
+      "code": "HKG",
+      "name": "Hong Kong",
+      "annual_deaths_estimate": 54926
+    },
+    {
+      "code": "HUN",
+      "name": "Hungary",
+      "annual_deaths_estimate": 128132
+    },
+    {
+      "code": "ISL",
+      "name": "Iceland",
+      "annual_deaths_estimate": 2551
+    },
+    {
+      "code": "IND",
+      "name": "India",
+      "annual_deaths_estimate": 9592137
+    },
+    {
+      "code": "IDN",
+      "name": "Indonesia",
+      "annual_deaths_estimate": 2134948
+    },
+    {
+      "code": "IRN",
+      "name": "Iran",
+      "annual_deaths_estimate": 427804
+    },
+    {
+      "code": "IRQ",
+      "name": "Iraq",
+      "annual_deaths_estimate": 190246
+    },
+    {
+      "code": "IRL",
+      "name": "Ireland",
+      "annual_deaths_estimate": 35612
+    },
+    {
+      "code": "IMN",
+      "name": "Isle of Man",
+      "annual_deaths_estimate": 882
+    },
+    {
+      "code": "ISR",
+      "name": "Israel",
+      "annual_deaths_estimate": 51867
+    },
+    {
+      "code": "ITA",
+      "name": "Italy",
+      "annual_deaths_estimate": 660270
+    },
+    {
+      "code": "CIV",
+      "name": "Ivory Coast",
+      "annual_deaths_estimate": 244616
+    },
+    {
+      "code": "JAM",
+      "name": "Jamaica",
+      "annual_deaths_estimate": 22929
+    },
+    {
+      "code": "JPN",
+      "name": "Japan",
+      "annual_deaths_estimate": 1611680
+    },
+    {
+      "code": "JEY",
+      "name": "Jersey",
+      "annual_deaths_estimate": 560
+    },
+    {
+      "code": "JOR",
+      "name": "Jordan",
+      "annual_deaths_estimate": 35225
+    },
+    {
+      "code": "KAZ",
+      "name": "Kazakhstan",
+      "annual_deaths_estimate": 138156
+    },
+    {
+      "code": "KEN",
+      "name": "Kenya",
+      "annual_deaths_estimate": 406938
+    },
+    {
+      "code": "KIR",
+      "name": "Kiribati",
+      "annual_deaths_estimate": 948
+    },
+    {
+      "code": "UNK",
+      "name": "Kosovo",
+      "annual_deaths_estimate": 560
+    },
+    {
+      "code": "KWT",
+      "name": "Kuwait",
+      "annual_deaths_estimate": 7503
+    },
+    {
+      "code": "KGZ",
+      "name": "Kyrgyzstan",
+      "annual_deaths_estimate": 31776
+    },
+    {
+      "code": "LAO",
+      "name": "Laos",
+      "annual_deaths_estimate": 48336
+    },
+    {
+      "code": "LVA",
+      "name": "Latvia",
+      "annual_deaths_estimate": 27805
+    },
+    {
+      "code": "LBN",
+      "name": "Lebanon",
+      "annual_deaths_estimate": 34615
+    },
+    {
+      "code": "LSO",
+      "name": "Lesotho",
+      "annual_deaths_estimate": 24889
+    },
+    {
+      "code": "LBR",
+      "name": "Liberia",
+      "annual_deaths_estimate": 45301
+    },
+    {
+      "code": "LBY",
+      "name": "Libya",
+      "annual_deaths_estimate": 49113
+    },
+    {
+      "code": "LIE",
+      "name": "Liechtenstein",
+      "annual_deaths_estimate": 275
+    },
+    {
+      "code": "LTU",
+      "name": "Lithuania",
+      "annual_deaths_estimate": 37259
+    },
+    {
+      "code": "LUX",
+      "name": "Luxembourg",
+      "annual_deaths_estimate": 4468
+    },
+    {
+      "code": "MAC",
+      "name": "Macau",
+      "annual_deaths_estimate": 3023
+    },
+    {
+      "code": "MDG",
+      "name": "Madagascar",
+      "annual_deaths_estimate": 240632
+    },
+    {
+      "code": "MWI",
+      "name": "Malawi",
+      "annual_deaths_estimate": 116137
+    },
+    {
+      "code": "MYS",
+      "name": "Malaysia",
+      "annual_deaths_estimate": 183406
+    },
+    {
+      "code": "MDV",
+      "name": "Maldives",
+      "annual_deaths_estimate": 1234
+    },
+    {
+      "code": "MLI",
+      "name": "Mali",
+      "annual_deaths_estimate": 211177
+    },
+    {
+      "code": "MLT",
+      "name": "Malta",
+      "annual_deaths_estimate": 4153
+    },
+    {
+      "code": "MHL",
+      "name": "Marshall Islands",
+      "annual_deaths_estimate": 262
+    },
+    {
+      "code": "MTQ",
+      "name": "Martinique",
+      "annual_deaths_estimate": 400
+    },
+    {
+      "code": "MRT",
+      "name": "Mauritania",
+      "annual_deaths_estimate": 28535
+    },
+    {
+      "code": "MUS",
+      "name": "Mauritius",
+      "annual_deaths_estimate": 11710
+    },
+    {
+      "code": "MYT",
+      "name": "Mayotte",
+      "annual_deaths_estimate": 375
+    },
+    {
+      "code": "MEX",
+      "name": "Mexico",
+      "annual_deaths_estimate": 806235
+    },
+    {
+      "code": "FSM",
+      "name": "Micronesia",
+      "annual_deaths_estimate": 865
+    },
+    {
+      "code": "MDA",
+      "name": "Moldova",
+      "annual_deaths_estimate": 32686
+    },
+    {
+      "code": "MCO",
+      "name": "Monaco",
+      "annual_deaths_estimate": 810
+    },
+    {
+      "code": "MNG",
+      "name": "Mongolia",
+      "annual_deaths_estimate": 19386
+    },
+    {
+      "code": "MNE",
+      "name": "Montenegro",
+      "annual_deaths_estimate": 6298
+    },
+    {
+      "code": "MSR",
+      "name": "Montserrat",
+      "annual_deaths_estimate": 400
+    },
+    {
+      "code": "MAR",
+      "name": "Morocco",
+      "annual_deaths_estimate": 214702
+    },
+    {
+      "code": "MOZ",
+      "name": "Mozambique",
+      "annual_deaths_estimate": 242492
+    },
+    {
+      "code": "MMR",
+      "name": "Myanmar",
+      "annual_deaths_estimate": 498839
+    },
+    {
+      "code": "NAM",
+      "name": "Namibia",
+      "annual_deaths_estimate": 18693
+    },
+    {
+      "code": "NRU",
+      "name": "Nauru",
+      "annual_deaths_estimate": 90
+    },
+    {
+      "code": "NPL",
+      "name": "Nepal",
+      "annual_deaths_estimate": 205541
+    },
+    {
+      "code": "NLD",
+      "name": "Netherlands",
+      "annual_deaths_estimate": 170938
+    },
+    {
+      "code": "NCL",
+      "name": "New Caledonia",
+      "annual_deaths_estimate": 1835
+    },
+    {
+      "code": "NZL",
+      "name": "New Zealand",
+      "annual_deaths_estimate": 38229
+    },
+    {
+      "code": "NIC",
+      "name": "Nicaragua",
+      "annual_deaths_estimate": 31717
+    },
+    {
+      "code": "NER",
+      "name": "Niger",
+      "annual_deaths_estimate": 239480
+    },
+    {
+      "code": "NGA",
+      "name": "Nigeria",
+      "annual_deaths_estimate": 2731657
+    },
+    {
+      "code": "NIU",
+      "name": "Niue",
+      "annual_deaths_estimate": 365
+    },
+    {
+      "code": "NFK",
+      "name": "Norfolk Island",
+      "annual_deaths_estimate": 365
+    },
+    {
+      "code": "PRK",
+      "name": "North Korea",
+      "annual_deaths_estimate": 256615
+    },
+    {
+      "code": "MKD",
+      "name": "North Macedonia",
+      "annual_deaths_estimate": 20068
+    },
+    {
+      "code": "MNP",
+      "name": "Northern Mariana Islands",
+      "annual_deaths_estimate": 208
+    },
+    {
+      "code": "NOR",
+      "name": "Norway",
+      "annual_deaths_estimate": 44021
+    },
+    {
+      "code": "OMN",
+      "name": "Oman",
+      "annual_deaths_estimate": 10040
+    },
+    {
+      "code": "PAK",
+      "name": "Pakistan",
+      "annual_deaths_estimate": 1624706
+    },
+    {
+      "code": "PLW",
+      "name": "Palau",
+      "annual_deaths_estimate": 203
+    },
+    {
+      "code": "PSE",
+      "name": "Palestine",
+      "annual_deaths_estimate": 38071
+    },
+    {
+      "code": "PAN",
+      "name": "Panama",
+      "annual_deaths_estimate": 21544
+    },
+    {
+      "code": "PNG",
+      "name": "Papua New Guinea",
+      "annual_deaths_estimate": 68916
+    },
+    {
+      "code": "PRY",
+      "name": "Paraguay",
+      "annual_deaths_estimate": 39517
+    },
+    {
+      "code": "PER",
+      "name": "Peru",
+      "annual_deaths_estimate": 187890
+    },
+    {
+      "code": "PHL",
+      "name": "Philippines",
+      "annual_deaths_estimate": 722401
+    },
+    {
+      "code": "PCN",
+      "name": "Pitcairn Islands",
+      "annual_deaths_estimate": 365
+    },
+    {
+      "code": "POL",
+      "name": "Poland",
+      "annual_deaths_estimate": 405807
+    },
+    {
+      "code": "PRT",
+      "name": "Portugal",
+      "annual_deaths_estimate": 119780
+    },
+    {
+      "code": "PRI",
+      "name": "Puerto Rico",
+      "annual_deaths_estimate": 34275
+    },
+    {
+      "code": "QAT",
+      "name": "Qatar",
+      "annual_deaths_estimate": 2658
+    },
+    {
+      "code": "ROU",
+      "name": "Romania",
+      "annual_deaths_estimate": 241958
+    },
+    {
+      "code": "RUS",
+      "name": "Russia",
+      "annual_deaths_estimate": 1736760
+    },
+    {
+      "code": "RWA",
+      "name": "Rwanda",
+      "annual_deaths_estimate": 84613
+    },
+    {
+      "code": "REU",
+      "name": "R\u00e9union",
+      "annual_deaths_estimate": 375
+    },
+    {
+      "code": "BLM",
+      "name": "Saint Barth\u00e9lemy",
+      "annual_deaths_estimate": 400
+    },
+    {
+      "code": "SHN",
+      "name": "Saint Helena, Ascension and Tristan da Cunha",
+      "annual_deaths_estimate": 375
+    },
+    {
+      "code": "KNA",
+      "name": "Saint Kitts and Nevis",
+      "annual_deaths_estimate": 467
+    },
+    {
+      "code": "LCA",
+      "name": "Saint Lucia",
+      "annual_deaths_estimate": 1548
+    },
+    {
+      "code": "MAF",
+      "name": "Saint Martin",
+      "annual_deaths_estimate": 243
+    },
+    {
+      "code": "SPM",
+      "name": "Saint Pierre and Miquelon",
+      "annual_deaths_estimate": 400
+    },
+    {
+      "code": "VCT",
+      "name": "Saint Vincent and the Grenadines",
+      "annual_deaths_estimate": 1157
+    },
+    {
+      "code": "WSM",
+      "name": "Samoa",
+      "annual_deaths_estimate": 1342
+    },
+    {
+      "code": "SMR",
+      "name": "San Marino",
+      "annual_deaths_estimate": 282
+    },
+    {
+      "code": "SAU",
+      "name": "Saudi Arabia",
+      "annual_deaths_estimate": 82603
+    },
+    {
+      "code": "SEN",
+      "name": "Senegal",
+      "annual_deaths_estimate": 103260
+    },
+    {
+      "code": "SRB",
+      "name": "Serbia",
+      "annual_deaths_estimate": 96821
+    },
+    {
+      "code": "SYC",
+      "name": "Seychelles",
+      "annual_deaths_estimate": 886
+    },
+    {
+      "code": "SLE",
+      "name": "Sierra Leone",
+      "annual_deaths_estimate": 71616
+    },
+    {
+      "code": "SGP",
+      "name": "Singapore",
+      "annual_deaths_estimate": 37429
+    },
+    {
+      "code": "SXM",
+      "name": "Sint Maarten",
+      "annual_deaths_estimate": 352
+    },
+    {
+      "code": "SVK",
+      "name": "Slovakia",
+      "annual_deaths_estimate": 54221
+    },
+    {
+      "code": "SVN",
+      "name": "Slovenia",
+      "annual_deaths_estimate": 21699
+    },
+    {
+      "code": "SLB",
+      "name": "Solomon Islands",
+      "annual_deaths_estimate": 4211
+    },
+    {
+      "code": "SOM",
+      "name": "Somalia",
+      "annual_deaths_estimate": 186955
+    },
+    {
+      "code": "ZAF",
+      "name": "South Africa",
+      "annual_deaths_estimate": 591362
+    },
+    {
+      "code": "SGS",
+      "name": "South Georgia",
+      "annual_deaths_estimate": 380
+    },
+    {
+      "code": "KOR",
+      "name": "South Korea",
+      "annual_deaths_estimate": 310506
+    },
+    {
+      "code": "SSD",
+      "name": "South Sudan",
+      "annual_deaths_estimate": 114764
+    },
+    {
+      "code": "ESP",
+      "name": "Spain",
+      "annual_deaths_estimate": 439640
+    },
+    {
+      "code": "LKA",
+      "name": "Sri Lanka",
+      "annual_deaths_estimate": 179711
+    },
+    {
+      "code": "SDN",
+      "name": "Sudan",
+      "annual_deaths_estimate": 323075
+    },
+    {
+      "code": "SUR",
+      "name": "Suriname",
+      "annual_deaths_estimate": 4218
+    },
+    {
+      "code": "SJM",
+      "name": "Svalbard and Jan Mayen",
+      "annual_deaths_estimate": 560
+    },
+    {
+      "code": "SWE",
+      "name": "Sweden",
+      "annual_deaths_estimate": 95127
+    },
+    {
+      "code": "CHE",
+      "name": "Switzerland",
+      "annual_deaths_estimate": 72945
+    },
+    {
+      "code": "SYR",
+      "name": "Syria",
+      "annual_deaths_estimate": 124326
+    },
+    {
+      "code": "STP",
+      "name": "S\u00e3o Tom\u00e9 and Pr\u00edncipe",
+      "annual_deaths_estimate": 1312
+    },
+    {
+      "code": "TWN",
+      "name": "Taiwan",
+      "annual_deaths_estimate": 350
+    },
+    {
+      "code": "TJK",
+      "name": "Tajikistan",
+      "annual_deaths_estimate": 48517
+    },
+    {
+      "code": "TZA",
+      "name": "Tanzania",
+      "annual_deaths_estimate": 397032
+    },
+    {
+      "code": "THA",
+      "name": "Thailand",
+      "annual_deaths_estimate": 636985
+    },
+    {
+      "code": "TLS",
+      "name": "Timor-Leste",
+      "annual_deaths_estimate": 10184
+    },
+    {
+      "code": "TGO",
+      "name": "Togo",
+      "annual_deaths_estimate": 73286
+    },
+    {
+      "code": "TKL",
+      "name": "Tokelau",
+      "annual_deaths_estimate": 365
+    },
+    {
+      "code": "TON",
+      "name": "Tonga",
+      "annual_deaths_estimate": 671
+    },
+    {
+      "code": "TTO",
+      "name": "Trinidad and Tobago",
+      "annual_deaths_estimate": 11450
+    },
+    {
+      "code": "TUN",
+      "name": "Tunisia",
+      "annual_deaths_estimate": 74534
+    },
+    {
+      "code": "TKM",
+      "name": "Turkmenistan",
+      "annual_deaths_estimate": 43326
+    },
+    {
+      "code": "TCA",
+      "name": "Turks and Caicos Islands",
+      "annual_deaths_estimate": 344
+    },
+    {
+      "code": "TUV",
+      "name": "Tuvalu",
+      "annual_deaths_estimate": 88
+    },
+    {
+      "code": "TUR",
+      "name": "T\u00fcrkiye",
+      "annual_deaths_estimate": 530216
+    },
+    {
+      "code": "UGA",
+      "name": "Uganda",
+      "annual_deaths_estimate": 242173
+    },
+    {
+      "code": "UKR",
+      "name": "Ukraine",
+      "annual_deaths_estimate": 497105
+    },
+    {
+      "code": "ARE",
+      "name": "United Arab Emirates",
+      "annual_deaths_estimate": 10239
+    },
+    {
+      "code": "GBR",
+      "name": "United Kingdom",
+      "annual_deaths_estimate": 658893
+    },
+    {
+      "code": "USA",
+      "name": "United States",
+      "annual_deaths_estimate": 3129021
+    },
+    {
+      "code": "UMI",
+      "name": "United States Minor Outlying Islands",
+      "annual_deaths_estimate": 400
+    },
+    {
+      "code": "VIR",
+      "name": "United States Virgin Islands",
+      "annual_deaths_estimate": 939
+    },
+    {
+      "code": "URY",
+      "name": "Uruguay",
+      "annual_deaths_estimate": 33131
+    },
+    {
+      "code": "UZB",
+      "name": "Uzbekistan",
+      "annual_deaths_estimate": 225662
+    },
+    {
+      "code": "VUT",
+      "name": "Vanuatu",
+      "annual_deaths_estimate": 1666
+    },
+    {
+      "code": "VAT",
+      "name": "Vatican City",
+      "annual_deaths_estimate": 560
+    },
+    {
+      "code": "VEN",
+      "name": "Venezuela",
+      "annual_deaths_estimate": 214746
+    },
+    {
+      "code": "VNM",
+      "name": "Vietnam",
+      "annual_deaths_estimate": 664196
+    },
+    {
+      "code": "WLF",
+      "name": "Wallis and Futuna",
+      "annual_deaths_estimate": 365
+    },
+    {
+      "code": "ESH",
+      "name": "Western Sahara",
+      "annual_deaths_estimate": 375
+    },
+    {
+      "code": "YEM",
+      "name": "Yemen",
+      "annual_deaths_estimate": 194475
+    },
+    {
+      "code": "ZMB",
+      "name": "Zambia",
+      "annual_deaths_estimate": 110987
+    },
+    {
+      "code": "ZWE",
+      "name": "Zimbabwe",
+      "annual_deaths_estimate": 126654
+    },
+    {
+      "code": "ALA",
+      "name": "\u00c5land Islands",
+      "annual_deaths_estimate": 560
+    }
+  ]
+}
